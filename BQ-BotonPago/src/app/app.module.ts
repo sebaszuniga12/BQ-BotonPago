@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FooterCopyrightComponent } from './components/footer-copyright/footer-copyright.component';
 import { HomeComponent } from './components/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent, 
-    FooterCopyrightComponent
+    FooterCopyrightComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
