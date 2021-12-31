@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,13 +7,7 @@ import { Router } from '@angular/router';
 })
 
 export class HomeComponent implements OnInit {
-
-  public images = [
-    {src:"carousel1.jpg"},
-    {src:"carousel2.jpg"},
-    {src:"carousel3.jpg"}
-  ];
-
+  
   constructor() { }
 
   ngOnInit(): void {

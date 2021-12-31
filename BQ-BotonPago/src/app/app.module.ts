@@ -7,13 +7,15 @@ import { FooterCopyrightComponent } from './components/footer-copyright/footer-c
 import { HomeComponent } from './components/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './components/header/header.component';
+import { PaymentComponent } from './components/payment/payment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent, 
     FooterCopyrightComponent,
-    HeaderComponent
+    HeaderComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
